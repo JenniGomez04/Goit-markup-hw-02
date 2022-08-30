@@ -1,0 +1,171 @@
+/* color del logo y el menu text-decoration quita la linea
+subrayado*/
+
+a {
+    text-decoration: none;
+    color: #2196F3
+}
+
+.menu li {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #2196F3;
+    font-style: medium;
+}
+
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: 'normal';
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.menu2 .contact {
+    color: #757575;
+}
+
+.menu2 .contact:hover {
+    color: #212121;
+}
+
+
+/* Section banner css */
+.banner {
+    background: #2F303A;
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 44px;
+    text-align: center;
+}
+
+.banner button {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* Section skills text */
+.skills h3 {
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.skills p {
+    color: #757575;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 146%;
+}
+
+/* Titles */
+h2 {
+    color: #212121;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* Title team */
+
+.profile h3 {
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+span {
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Footer */
+
+footer {
+    background: #2F303A;
+}
+
+.footer {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu-footer a {
+    color: rgba(255, 255, 255, 0.66);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu-footer .contact:hover {
+    color: #2196F3;
+}
+
+
+/* Portafolio */
+
+.btaz {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+.btngr {
+    color: #2196F3;
+    background-color: #F5F4FA;
+
+}
+
+/* Active: Activa un elemento (botón y enlace) se pone la ubicación su bordo azul
+   Focus: Activa un elemento interactivo (botón y enlace) */
+
+button:active,
+button:focus {
+    color: #212121;
+    border-color: #2196F3;
+}
+
+.link:focus {
+    color: #212121;
+}
+
+.link:active {
+    color: #212121;
+}
+
+
+/* Contenedor 1,2 y 3 de imagenes de portafolio
+clases para css de textos de imagenes*/
+.site h3 {
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.site span {
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+body {
+    font-family: 'Roboto' sans-serif;
+}
